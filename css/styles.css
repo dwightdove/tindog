@@ -1,17 +1,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 h1 {
     font-size: 3.9rem;
     line-height: 1.5;
 }
+
 h2 {
     font-size: 3rem;
     line-height: 1.5;
 }
+
 .container-fluid {
     padding: 3% 15% 7%;
 }
+
 #title {
     background-color: #ff4c68;
     color: #fff;
@@ -21,14 +25,17 @@ h2 {
 .navbar {
     padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .nav-item {
     padding: 0 18px;
 }
+
 .nav-link {
     font-size: 1.2rem;
 }
@@ -51,21 +58,26 @@ h2 {
     text-align: center;
     margin: 0 auto;
 }
+
 .row-item-bene-icon {
     color: #ef8172;
     font-size: 4rem;
     margin-bottom: 10%;
 }
+
 .row-item-bene-icon:hover {
     color: #ff4c68;
 }
+
 .row-item-bene-h3 {
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
 }
+
 .row-item-bene-p {
     color: #8f8f8f;
 }
+
 #features {
     padding: 7% 15%;
     background-color: #fff;
@@ -79,9 +91,11 @@ h2 {
     background-color: #ef8172;
     color: #fff;
 }
+
 .carousel-item {
     padding: 7% 15%;
 }
+
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
@@ -94,6 +108,7 @@ h2 {
     text-align: center;
     padding-bottom: 3%;
 }
+
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
@@ -103,7 +118,42 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
+
 #pricing {
     padding: 100px;
     text-align: center;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+.cta-button {
+    margin: 30px 15px 0;
+}
+.cta-heading {
+    font-size: 3.5rem;
+}
+/* Footer Section */
+#footer {
+    text-align: center;
+    margin: 5% auto 0;
+    background-color: #fff;
+}
+.footer-icon {
+    margin: 0 15px 30px;
 }
